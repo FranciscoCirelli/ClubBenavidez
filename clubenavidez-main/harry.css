@@ -1,0 +1,164 @@
+*{
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+body{
+    background-color: #ffffff;
+    text-align: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1{
+    text-align: justify;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 80px;
+}
+
+img{
+  width: 350px;
+  height: 300px;
+}
+
+.imagenlbyn{
+    height: 80px;
+    width: 80px;
+    position: relative;
+    top: 0px;
+    left: 616px;
+}
+
+  .css{
+    color: rgb(161, 161, 161);
+    text-shadow: 4px 2px 0px black;
+    margin-top: 70px;
+    margin-left: 10px;
+  }
+  
+  .qr{
+    color: rgb(67, 192, 67);
+    text-shadow: 4px 2px 0px black;
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 10px;
+  }
+
+  .inicio{
+    font-size: 50px;
+    margin-left: 20px;
+  }
+
+
+
+  .item {
+    display: inline-block;
+    padding: 20px;
+    transition: all 0.2s linear;
+}
+  
+.itemi {
+  display: inline-block;
+  padding: 20px;
+  text-decoration: underline;
+  font-size: 22px;
+  color: white;
+}
+
+.item a {
+  text-decoration: underline;
+  font-size: 22px;
+  color: rgb(255, 255, 255);
+}
+  
+.item:hover {
+  transform: scale(1.1, 1.1);
+  background-color: rgb(67, 192, 67); 
+}
+  
+.menu {
+
+  background-color: rgb(59, 58, 58);
+  padding: 20px;
+  display: flex;
+}
+
+.menu2 {
+  padding:10px;
+  padding-left: 10px;
+  background-image: url(images/imgInicio\ \(3\).png);
+  opacity: 0.80;
+  height: 450px;
+  margin-left: 7px;
+  background-size: 1400px;
+  background-repeat: no-repeat;
+  background-position-x: right
+  
+}
+
+.tact {
+  text-align: center;
+  color: rgb(59, 58, 58);
+  margin-top: 50px;
+  font-size: 50px;
+  font-family: helvetica;
+}
+
+.tarjetas {
+  justify-content: space-between;
+  display: flex;
+  padding: 60px;
+  
+  
+}
+
+.voley {
+  width: 350px;
+  height: 500px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  font-size: 20px;
+  text-align: center;
+  justify-content: space-between;
+  background-color: grey;
+}
+
+.futbol {
+  width: 350px;
+  height: 500px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  font-size: 20px;
+  text-align: center;
+  justify-content: space-between;
+  background-color: grey;
+}
+
+.fulvo {
+  width: 350px;
+  height: 500px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  font-size: 20px;
+  text-align: center;
+  justify-content: space-between;
+  background-color: grey;
+}
+
+.voley:hover {
+  transform: translate(0, 7px);
+  box-shadow: 2px 16px 5px rgba(0, 0, 0, 0.3);
+ transition: all 300ms;
+}
+
+.futbol:hover {
+  transform: translate(0, 7px);
+  box-shadow: 2px 16px 5px rgba(0, 0, 0, 0.3);
+ transition: all 300ms;
+}
+
+.fulvo:hover {
+  transform: translate(0, 7px);
+  box-shadow: 2px 16px 5px rgba(0, 0, 0, 0.3);
+ transition: all 300ms;
+}
